@@ -3,13 +3,14 @@
     box-sizing: border-box;
 }
 
+/* body shows all of the properties of elements unless stated elsewhere */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
     background: #777;
     width: 960px;
     font-size: 18px;
-    align-content: center;
     margin: auto;
 }
 
@@ -29,6 +30,8 @@ nav {
 
 }
 
+/* section is on the left next to aside */
+
 section {
     padding: 10px;
     float: left;
@@ -36,12 +39,15 @@ section {
     margin-bottom: 20px;
 }
 
+/* article is inside of the section */
+
 article {
     color: #ebebeb;
     background: #777;
     padding: 10px;
-
 }
+
+/* .inner is the class that is inside the article */
 
 .inner {
     color: #777;
@@ -50,6 +56,8 @@ article {
     margin:10px;
     flex-direction: column;
 }
+
+/* aside is on the right next to section */
 
 aside {
     
